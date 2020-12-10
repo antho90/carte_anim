@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #c9bda9;
+}
+
+#cerf {
+  -webkit-animation: cerf 2s ease infinite alternate;
+          animation: cerf 2s ease infinite alternate;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes cerf {
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  30% {
+    -webkit-transform: translateY(120px);
+            transform: translateY(120px);
+  }
+  to {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+
+@keyframes cerf {
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  30% {
+    -webkit-transform: translateY(120px);
+            transform: translateY(120px);
+  }
+  to {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+
+#Vector_38 {
+  -webkit-animation: changecolor 0.5s infinite alternate;
+          animation: changecolor 0.5s infinite alternate;
+}
+
+@-webkit-keyframes changecolor {
+  0% {
+    fill: #ff4e4e;
+  }
+  100% {
+    fill: #C50000;
+  }
+}
+
+@keyframes changecolor {
+  0% {
+    fill: #ff4e4e;
+  }
+  100% {
+    fill: #C50000;
+  }
+}
+
+#text2 {
+  text-align: right;
+}
+
+#guirlande {
+  margin-top: 2%;
+}
+
+p {
+  font-size: 1vw;
+}
+
+#Vector_33 {
+  -webkit-animation: changecolor 1s infinite alternate;
+          animation: changecolor 1s infinite alternate;
+}
+
+#Vector_34 {
+  -webkit-animation: changecolor 0.5s infinite alternate;
+          animation: changecolor 0.5s infinite alternate;
+}
+
+#Vector_35 {
+  -webkit-animation: changecolor 1s infinite alternate;
+          animation: changecolor 1s infinite alternate;
+}
+
+#Vector_36 {
+  -webkit-animation: changecolor 0.5s infinite alternate;
+          animation: changecolor 0.5s infinite alternate;
+}
+
+#Vector_37 {
+  -webkit-animation: changecolor 1s infinite alternate;
+          animation: changecolor 1s infinite alternate;
+}
+
+#Vector_32 {
+  -webkit-animation: changecolor 1s infinite alternate;
+          animation: changecolor 1s infinite alternate;
+}
+
+@keyframes changecolor {
+  0% {
+    fill: #C50000;
+  }
+  100% {
+    fill: #EEEFF0;
+  }
+}
+
+#guirlande .lampe {
+  -webkit-animation: changecolor3 1s infinite alternate;
+          animation: changecolor3 1s infinite alternate;
+}
+
+@-webkit-keyframes changecolor3 {
+  0% {
+    fill: #4093ff;
+  }
+  100% {
+    fill: #0026a1;
+  }
+}
+
+@keyframes changecolor3 {
+  0% {
+    fill: #4093ff;
+  }
+  100% {
+    fill: #0026a1;
+  }
+}
+
+#guirlande .lampe2 {
+  -webkit-animation: changecolor4 1.5s infinite alternate;
+          animation: changecolor4 1.5s infinite alternate;
+}
+
+@-webkit-keyframes changecolor4 {
+  0% {
+    fill: #4093ff;
+  }
+  100% {
+    fill: #0026a1;
+  }
+}
+
+@keyframes changecolor4 {
+  0% {
+    fill: #4093ff;
+  }
+  100% {
+    fill: #0026a1;
+  }
+}
+
+#B {
+  -webkit-animation: apparition 1s;
+          animation: apparition 1s;
+}
+
+@-webkit-keyframes apparition {
+  0% {
+    fill: #c9bda9;
+  }
+  100% {
+    fill: #000000;
+  }
+}
+
+@keyframes apparition {
+  0% {
+    fill: #c9bda9;
+  }
+  100% {
+    fill: #000000;
+  }
+}
+
+#o {
+  -webkit-animation: apparition 1.5s;
+          animation: apparition 1.5s;
+}
+
+#n {
+  -webkit-animation: apparition 2s;
+          animation: apparition 2s;
+}
+
+#n1 {
+  -webkit-animation: apparition 2.5s;
+          animation: apparition 2.5s;
+}
+
+#e {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#s2 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#f {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#e2 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#t {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#e3 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#s {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#d {
+  -webkit-animation: apparition 2.5s;
+          animation: apparition 2.5s;
+}
+
+#e4 {
+  -webkit-animation: apparition 2.5s;
+          animation: apparition 2.5s;
+}
+
+#f2 {
+  -webkit-animation: apparition 2.5s;
+          animation: apparition 2.5s;
+}
+
+#i {
+  -webkit-animation: apparition 2.5s;
+          animation: apparition 2.5s;
+}
+
+#n3 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#d2 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#apostrophe {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#a {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#n4 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#n5 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#e5 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+
+#e6 {
+  -webkit-animation: apparition 3s;
+          animation: apparition 3s;
+}
+/*# sourceMappingURL=style.css.map */

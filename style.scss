@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #c9bda9;
+}
+
+#cerf {
+    animation: cerf 2s ease infinite alternate; 
+    transform-box: fill-box;
+}
+
+@keyframes cerf {
+
+        100% {transform:translateY(0px);}
+        30% { transform:translateY(120px);}
+ 
+    to {
+        transform: translateY(-50px)
+    }
+}
+
+ #Vector_38 {
+    animation: changecolor 0.5s infinite alternate;
+}
+
+@keyframes changecolor {
+    0% {
+        fill: rgb(255, 78, 78);
+    }
+    100% {
+        fill: #C50000;
+    }
+}
+
+#text2 {
+    text-align: right;
+}
+
+#guirlande {
+    margin-top: 2%;
+}
+
+p {
+    font-size: 1vw;
+}
+
+// lumiere etoile et nez_____________________________________________________________
+
+#Vector_33 {
+    animation: changecolor 1s infinite alternate;
+}
+
+#Vector_34 {
+    animation: changecolor 0.5s infinite alternate;
+}
+
+#Vector_35 {
+    animation: changecolor 1s infinite alternate;
+}
+
+#Vector_36 {
+    animation: changecolor 0.5s infinite alternate;
+}
+
+#Vector_37 {
+    animation: changecolor 1s infinite alternate;
+}
+
+#Vector_32 {
+    animation: changecolor 1s infinite alternate;
+}
+
+@keyframes changecolor {
+    0% {
+        fill: #C50000;
+    }
+    100% {
+        fill: #EEEFF0;
+    }
+}
+
+// lampe bleu___________________________________________
+
+#guirlande .lampe {
+    animation: changecolor3 1s infinite alternate;
+}
+
+@keyframes changecolor3 {
+    0% {
+        fill: #4093ff;
+    }
+    100% {
+        fill: #0026a1;
+    }
+}
+
+#guirlande .lampe2 {
+    animation: changecolor4 1.5s infinite alternate;
+}
+
+@keyframes changecolor4 {
+    0% {
+        fill: #4093ff;
+    }
+    100% {
+        fill: #0026a1;
+    }
+}
+
+
+// Bonnes_______________________________________
+
+#B {
+    animation: apparition 1s ;
+}
+
+@keyframes apparition {
+    0% {
+        fill: #c9bda9;
+    }
+    100% {
+        fill: #000000;
+    }
+}
+
+#o {
+    animation: apparition 1.5s ;
+}
+
+#n {
+    animation: apparition 2s ;
+}
+
+#n1 {
+    animation: apparition 2.5s ;
+}
+
+#e {
+    animation: apparition 3s ;
+}
+
+#s2 {
+    animation: apparition 3s ;
+}
+
+// fetes_______________________________________
+
+#f {
+    animation: apparition 3s ;
+}
+
+#e2 {
+    animation: apparition 3s ;
+}
+
+#t {
+    animation: apparition 3s ;
+}
+
+#e3 {
+    animation: apparition 3s ;
+}
+
+#s {
+    animation: apparition 3s ;
+}
+
+// de___________________________________________
+
+#d {
+    animation: apparition 2.5s ;
+}
+
+#e4 {
+    animation: apparition 2.5s ;
+}
+
+// fin___________________________________________
+
+#f2 {
+    animation: apparition 2.5s ;
+}
+
+#i {
+    animation: apparition 2.5s ;
+}
+
+#n3 {
+    animation: apparition 3s ;
+}
+
+// d'année___________________________________________
+
+#d2 {
+    animation: apparition 3s ;
+}
+
+#apostrophe {
+    animation: apparition 3s ;
+}
+
+#a {
+    animation: apparition 3s ;
+}
+
+#n4 {
+    animation: apparition 3s ;
+}
+
+#n5{
+    animation: apparition 3s ;
+}
+
+#e5 {
+    animation: apparition 3s ;
+}
+
+#e6 {
+    animation: apparition 3s ;
+}
