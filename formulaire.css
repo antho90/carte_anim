@@ -22,7 +22,12 @@ html {
     width: 100%;
     height: 100vh;
     position: relative;
-     background-color: #c9bda9;
+     /* background-color: #c9bda9; */
+     background-image: url(img/test.png);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     background-size: cover;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
