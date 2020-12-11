@@ -22,12 +22,12 @@ body {
             transform: translateY(0px);
   }
   30% {
-    -webkit-transform: translateY(120px);
-            transform: translateY(120px);
+    -webkit-transform: translateY(35px);
+            transform: translateY(35px);
   }
   to {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
 }
 
@@ -37,12 +37,12 @@ body {
             transform: translateY(0px);
   }
   30% {
-    -webkit-transform: translateY(120px);
-            transform: translateY(120px);
+    -webkit-transform: translateY(35px);
+            transform: translateY(35px);
   }
   to {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
 }
 
@@ -75,6 +75,27 @@ body {
 
 #guirlande {
   margin-top: 2%;
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#text {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#anim {
+  margin-left: 45%;
+  position: relative;
+  width: 9%;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
 p {

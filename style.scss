@@ -17,10 +17,10 @@ body {
 @keyframes cerf {
 
         100% {transform:translateY(0px);}
-        30% { transform:translateY(120px);}
+        30% { transform:translateY(35px);}
  
     to {
-        transform: translateY(-50px)
+        transform: translateY(-10px)
     }
 }
 
@@ -43,6 +43,27 @@ body {
 
 #guirlande {
     margin-top: 2%;
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+#text {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+#anim {
+    margin-left: 45%;
+    position: relative;
+    width: 9%;
+    vertical-align: middle;
+    overflow: hidden;
 }
 
 p {
