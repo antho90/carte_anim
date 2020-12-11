@@ -7,7 +7,11 @@
 
 body {
   text-align: center;
-  background-color: #c9bda9;
+  background-image: url(img/4590611.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #cerf {
@@ -74,7 +78,7 @@ body {
 }
 
 #guirlande {
-  margin-top: 2%;
+  margin-top: 5%;
   display: inline-block;
   position: relative;
   width: 70%;
@@ -93,12 +97,13 @@ body {
 #anim {
   margin-left: 45%;
   position: relative;
-  width: 9%;
+  width: 8%;
   vertical-align: middle;
   overflow: hidden;
 }
 
 p {
+  margin-top: 2%;
   font-size: 1vw;
 }
 
