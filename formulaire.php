@@ -17,7 +17,7 @@
 		<p>Rentre l'email de la personne de ton choix et envoie lui ta carte de voeux !!</p>
 		<div class="email-box">
 			<input type="text" class="email-box__input" placeholder="Email Address" />
-			<button type="button" class="email-box__button"><i class="ion-paper-airplane"></i>Envoyer</button>
+			<button type="button" class="email-box__button cursor">Envoyer</button>
         </div>
 	</div>
 </main>

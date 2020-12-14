@@ -109,3 +109,6 @@ html {
     }
   }
   
+  .cursor {
+      cursor: pointer;
+  }
