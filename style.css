@@ -6,6 +6,8 @@
 }
 
 body {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   text-align: center;
   background-image: url(img/4590611.jpg);
   background-repeat: no-repeat;

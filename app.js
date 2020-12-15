@@ -19,14 +19,14 @@ for(var pair of formData.entries()) {
         if(data.message !== undefined){
             // ok
             message.textContent= data.message;
-            message.style.color="green";
+            message.style.color="#008000";
             
             form.reset();
         }
         if(data.error !== undefined){
             // error
             message.textContent= data.error;
-            message.style.color="red";
+            message.style.color="#000000";
         }
     })
 })
