@@ -1,3 +1,19 @@
+<?php
+
+if (!empty($_POST['email'])) {
+
+
+    $header = "MIME-Version: 1.0\r\n";
+    $header .= 'From:"PrimFX.com"<support@primfx.com>' . "\n";
+    $header .= 'Content-Type:text/html; charset="uft-8"' . "\n";
+    $header .= 'Content-Transfer-Encoding: 8bit';
+    $to = $_POST['email'];
+    if (filter_var($to, FILTER_VALIDATE_EMAIL)) {
+
+
+        $subject = 'Vous avez reçu une carte de voeux';
+
+        $message = '
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -66,7 +82,7 @@
                         <tr>
                             <td style="text-align: center;padding: 15px;">
                                 <p style="font-size: 24px; font-weight: bold;">
-                                    Bonne fêtes de fin d'année !!
+                                    Tu as reçu une carte de voeux !!
                                 </p>
                             </td>
                         </tr>
@@ -77,7 +93,7 @@
 <!-- BANNER IMAGE -->
             <tr>
                 <td>
-                    <img src="https://image.freepik.com/free-vector/hand-drawn-winter-landscape_23-2148750787.jpg" alt="bannière" width="600" style="max-width: 100%;">
+                    <img src="https://image.freepik.com/free-vector/various-santa-claus-character-gifts_23-2148789044.jpg" alt="bannière" width="600" style="max-width: 100%;">
                 </td>
             </tr>
 
@@ -90,9 +106,9 @@
                             <td>
                                 <td style="text-align: center;padding: 45px;">
                                     <p style="font-size: 18px; line-height: 24px; padding-bottom: 30px;">
-                                    Cliquer sur ce bouton pour découvrir votre carte de voeux !
+                                    Clique sur ce bouton pour découvrir ta carte de voeux !
                                     </p>
-                                    <a href="http://localhost/carte_anim/" class="button"><strong style="color: #e4e4e4;font-size: 24px">Voir la carte de voeux</strong></a>
+                                    <a href="https://anthonyc541.promo-45.codeur.online/carte_anim/carte.html" class="button"><strong style="color: #e4e4e4;font-size: 24px">Voir la carte de voeux</strong></a>
                                 </td>
                             </td>
                         </tr>
@@ -107,7 +123,7 @@
                         <tr>
                             <td>
                                 <td style="text-align: center;padding-left: 45px;padding-right: 45px;padding: 15px;">
-                                    <p style="font-size: 14px; line-height: 18px;">Et bonnes fêtes également de la part de <a href="https://www.accesscodeschool.fr/">l'Access Code School</a>.</p>
+                                    <p style="font-size: 14px; line-height: 18px;">Et bonnes fêtes également de la part de <a href="https://www.accesscodeschool.fr/">l\'Access Code School</a>.</p>
                                 </td>
                             </td>
                         </tr>
@@ -118,3 +134,15 @@
     </center>
 </body>
 </html>
+
+';
+        if (mail($to, $subject, $message, $header)) {
+            echo json_encode(['message' => 'Votre mail a bien été envoyé']);
+            // header("Location: index.php");
+        } else {
+            echo json_encode(['error' => 'Il y eu une erreur lors de l\'envoie du mail']);
+        }
+    } else {
+        echo json_encode(['error' => 'Vous devez rentrer une adresse mail valide']);
+    }
+}

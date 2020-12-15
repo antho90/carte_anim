@@ -16,8 +16,15 @@
 		<h1 class="modal__heading">Envoie ta carte de voeux</h1>
 		<p>Rentre l'email de la personne de ton choix et envoie lui ta carte de voeux !!</p>
 		<div class="email-box">
-			<input type="text" class="email-box__input" placeholder="Email Address" />
-			<button type="button" class="email-box__button cursor">Envoyer</button>
-        </div>
+		   <form method="POST" action="email.php">
+		   	   <input type="text" name="email" class="email-box__input" placeholder="Adresse Email " />
+			   <button type="submit" class="email-box__button   cursor" name="mailform">Envoyer</button>
+			</form>
+		</div>
+		<p id="response"></p>
 	</div>
+	
 </main>
+<script src="app.js"></script>
+	</body>
+	</html>
